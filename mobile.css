@@ -1,0 +1,47 @@
+@media (max-width: 767px) {
+    
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .title {
+    font-size: 32px;
+    line-height: 39px; 
+    text-align: center;
+    }
+
+    .top_text {
+    font-size: 14px;
+    line-height: 22px;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    margin-top: 32px;
+    }
+
+    .top_button {
+    margin-top: 32px;
+    margin-left: 50px;
+    margin-right: 50px;
+    }
+
+    .games_box {
+    
+    background-size: cover;
+    background-position: center center;
+    }
+
+    .games {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    }
+
+    .games__item--1 .games__item--2 .games__item--3 {
+    width: 343px;
+    }
+}
+
+
