@@ -126,14 +126,44 @@ body {font-family: 'Montserrat',
         cursor: url(img/Vector.png),pointer;
         }
 
+        .seasons_box {
+        background-image: url(img/footback2.jpg);
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+        
+        }
+
+        .title_2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 78px;
+        color: #FFFFFF;
+        padding-top: 282px;
+        max-width: 700px;
+        }
+
+        .seasons_game_img {
+        width: 485px;
+        margin-top: 233px;
+        
+        }
+
+
 
         /* стили для мобильных устройств */
         
         @media (max-width: 767px) {
     
             .center {
-                padding-left: 16px;
-                padding-right: 16px;
+            padding-left: 16px;
+            padding-right: 16px;
             }
 
             .title {
@@ -173,5 +203,24 @@ body {font-family: 'Montserrat',
             .games__item--1 .games__item--2 .games__item--3 {
             width: 343px;
             }
+
+            .title_2 {
+            font-size: 32px;
+            line-height: 39px;
+            text-align: center;
+            }
+            .seasons_box {
+             background-size: cover;
+            background-position: center center;
+            align-items: center;
+            }
+
+            .seasons_game_img {
+            width: 344px;
+            
+
+        
+        }
+
         }
 
