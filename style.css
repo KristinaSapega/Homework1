@@ -131,13 +131,13 @@ body {font-family: 'Montserrat',
         background-repeat:no-repeat;
         background-position: center;
         background-size: cover;
+        height: 800px;
+        padding-bottom: 233px;
 
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        
-        
         }
 
         .title_2 {
@@ -152,8 +152,10 @@ body {font-family: 'Montserrat',
         .seasons_game_img {
         width: 485px;
         margin-top: 233px;
-        
         }
+
+
+        
 
 
 
@@ -183,8 +185,8 @@ body {font-family: 'Montserrat',
 
             .top_button {
             margin-top: 32px;
-            margin-left: 50px;
-            margin-right: 50px;
+            margin-left: 70px;
+            margin-right: 70px;
             }
 
             .games_box {
@@ -209,18 +211,21 @@ body {font-family: 'Montserrat',
             line-height: 39px;
             text-align: center;
             }
+
             .seasons_box {
-             background-size: cover;
+            background-size: cover;
             background-position: center center;
             align-items: center;
             }
 
             .seasons_game_img {
             width: 344px;
-            
+            margin-top: 64px;
+            }
+
 
         
         }
 
-        }
+        
 
