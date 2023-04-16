@@ -7,7 +7,8 @@
 || (логическое ИЛИ) и && (логическое И).*/
 
 
-function getSeason(monthNumber) {
+function getSeason() {
+    let monthNumber = Number(prompt('Введите номер месяца'));
     if (monthNumber < 1 || monthNumber > 12) {
         alert('Неправильный номер месяца');
     } else if (monthNumber >= 3 && monthNumber <= 5) {
@@ -20,9 +21,9 @@ function getSeason(monthNumber) {
         alert('Зима');
     }
 }
-    let userInput = Number(prompt('Введите номер месяца'));
+   /* let userInput = Number(prompt('Введите номер месяца'));
     getSeason(userInput);
-    document.querySelector("button").addEventListener("click", getSeason(userInput));
+    document.querySelector("button").addEventListener("click", getSeason(userInput));*/
 
     
     
