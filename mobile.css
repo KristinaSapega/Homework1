@@ -1,8 +1,8 @@
 @media (max-width: 767px) {
     
     .center {
-        padding-left: 16px;
-        padding-right: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
     }
 
     .title {
@@ -10,7 +10,7 @@
     line-height: 39px; 
     text-align: center;
     }
-
+        
     .top_text {
     font-size: 14px;
     line-height: 22px;
@@ -22,16 +22,15 @@
 
     .top_button {
     margin-top: 32px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
     }
 
     .games_box {
-    
     background-size: cover;
     background-position: center center;
     }
-
+        
     .games {
     display: flex;
     flex-direction: column;
@@ -42,6 +41,49 @@
     .games__item--1 .games__item--2 .games__item--3 {
     width: 343px;
     }
-}
 
+    .title_2 {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    }
+
+
+    .seasons_box {
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    }
+
+
+    .seasons_game {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    }
+    
+    .seasons_game_img {
+    width: 344px;
+    margin-top: 64px;
+    }
+
+    .remember_words_box {
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .remember_words_game_img {
+    width: 344px;
+    }
+
+
+
+
+
+    }
+
+        
 

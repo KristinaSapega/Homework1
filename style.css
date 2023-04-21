@@ -153,6 +153,26 @@ body {font-family: 'Montserrat',
         margin-top: 233px;
         }
 
+        .remember_words_box {
+            background-image: url(img/footback3.jpg);
+            background-repeat:no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-bottom: 233px;
+        
+            }
+    
+            .remember_words_game_img {
+            width: 481 px;
+            margin-top: 239px;
+            }
+
+    
+
 
 
     /* стили для мобильных устройств */
@@ -226,6 +246,25 @@ body {font-family: 'Montserrat',
     margin-top: 64px;
     }
 
+    .remember_words_box {
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    }
+
+    .remember_words_game {
+    display: flex;
+    width: 100%;
+    justify-content: center;  
+    }
+    
+    .remember_words_game_img {
+    width: 344px;
+    margin-top: 64px;
+    }
 
 
 
